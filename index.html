@@ -143,7 +143,7 @@
 				<div class="row">
 					<div class="col-lg-4 col-md-12 col-12">
 						<div class="about-img" data-aos="fade-right" data-aos-delay="300">
-							<img src="img/about.jpg" alt="" class="img-fluid" />
+							<img src="img/about-1.jpg" alt="" class="img-fluid" />
 						</div>
 					</div>
 					<div
@@ -164,6 +164,65 @@
 								meet — expectations.
 							</p>
 							<a href="#" class="btn btn-warning">Learn More</a>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div
+							class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5"
+							data-aos="fade-right"
+							data-aos-delay="400"
+						>
+							<div class="about-text">
+								<h2>
+									We Provide the Best Team <br />
+									In The Market
+								</h2>
+								<p>
+									Our team consists of experienced professionals who have been
+									in the construction industry for years. We have a deep
+									understanding of the construction process, from start to
+									finish. We believe that communication is key to any successful
+									project, which is why we work closely with our clients to
+									understand their unique needs and goals.
+								</p>
+								<a href="#" class="btn btn-warning">Learn More</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-12 col-12">
+							<div class="about-img" data-aos="fade-left" data-aos-delay="400">
+								<img src="img/about-2.jpg" alt="" class="img-fluid" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4 col-md-12 col-12">
+							<div class="about-img" data-aos="fade-right" data-aos-delay="500">
+								<img src="img/about-3.jpg" alt="" class="img-fluid" />
+							</div>
+						</div>
+						<div
+							class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5"
+							data-aos="fade-left"
+							data-aos-delay="500"
+						>
+							<div class="about-text">
+								<h2>
+									We Provide the Widest Range Of <br />
+									Services Ever
+								</h2>
+								<p>
+									At Buildcon, we offer a wide range of construction services,
+									including design-build, general contracting, project
+									management, and construction consulting. We take pride in our
+									ability to deliver projects on time and within budget, while
+									maintaining the highest standards of quality and safety.
+								</p>
+								<a href="#" class="btn btn-warning">Learn More</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -274,9 +333,9 @@
 									The distinctive sail-shaped silhouette of Burj Al Arab
 									Jumeirah is more than just a stunning hotel, it is a symbol of
 									modern Dubai. Rising on a man-made island, 280 metres from the
-									shores of the renowned Jumeirah beach and designed to resemble
-									the graceful sail of an Arabian dhow, it soars to a height of
-									321 metres, dominating Dubai’s coastline.
+									shores of the renowned Jumeirah and designed to resemble the
+									graceful sail of an Arabian dhow, it soars to a height of 321
+									metres.
 								</p>
 							</div>
 						</div>
@@ -297,8 +356,7 @@
 									comprising of 1BR, 2BR & 3BR apartments in Downtown Dubai by
 									Emaar Properties.The exterior of the Emaar Burj Royale
 									building is broken into two layers the first is a low-rise
-									foreground and the second is a high-rise contemporary
-									background
+									foreground and the second is a rise
 								</p>
 							</div>
 						</div>
@@ -360,7 +418,7 @@
 									class="img-fluid rounded-circle"
 								/>
 								<h3 class="card-title py-2">Aditya Sangade</h3>
-								<p class="card-text">Cheif Executive Officer</p>
+								<p class="card-text">Chief Executive Officer</p>
 								<p class="socials">
 									<i class="bi bi-twitter text-dark mx-1"></i>
 									<i class="bi bi-facebook text-dark mx-1"></i>
@@ -382,8 +440,8 @@
 									alt=""
 									class="img-fluid rounded-circle"
 								/>
-								<h3 class="card-title py-2">Prathmest Shirsat</h3>
-								<p class="card-text">Cheif Technology Officer</p>
+								<h3 class="card-title py-2">Prathmesh Shirsat</h3>
+								<p class="card-text">Chief Technology Officer</p>
 								<p class="socials">
 									<i class="bi bi-twitter text-dark mx-1"></i>
 									<i class="bi bi-facebook text-dark mx-1"></i>
@@ -406,7 +464,7 @@
 									class="img-fluid rounded-circle"
 								/>
 								<h3 class="card-title py-2">Harsh Vhatkar</h3>
-								<p class="card-text">Cheif Financial Officer</p>
+								<p class="card-text">Chief Financial Officer</p>
 								<p class="socials">
 									<i class="bi bi-twitter text-dark mx-1"></i>
 									<i class="bi bi-facebook text-dark mx-1"></i>
@@ -428,15 +486,14 @@
 						<div class="section-header text-center pb-5">
 							<h2>Contact Us</h2>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur <br />adipisicing elit.
-								Non, quo.
+								Connect with us today <br />and get ready for your next home
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="row m-0">
 					<div class="col-md-12 p-0 pt-4 pb-4">
-						<form action="#" class="bg-light p-4 m-auto">
+						<form action="#" class="bg-light p-4 m-auto" id="form">
 							<div class="row">
 								<div class="col-md-12">
 									<div class="mb-3">
@@ -445,6 +502,7 @@
 											placeholder="Full Name"
 											required=""
 											type="text"
+											id="name"
 										/>
 									</div>
 								</div>
@@ -455,6 +513,8 @@
 											placeholder="Email"
 											required=""
 											type="email"
+											id="email"
+											name="email"
 										/>
 									</div>
 								</div>
@@ -465,12 +525,14 @@
 											placeholder="Message"
 											required=""
 											rows="3"
+											id="message"
 										></textarea>
 									</div>
 								</div>
 								<button
 									class="btn btn-warning btn-lg btn-block mt-3"
-									type="button"
+									type="submit"
+									id="submit-btn"
 								>
 									Send Now
 								</button>
